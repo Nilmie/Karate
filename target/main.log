@@ -1,0 +1,296 @@
+19:36:41.451 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+19:36:42.266 request:
+1 > DELETE http://localhost:3000/employees/43
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:3000
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_271)
+
+19:36:42.316 response time in milliseconds: 47.72
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Length: 2
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 24 Dec 2020 14:06:42 GMT
+1 < ETag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Expires: -1
+1 < Keep-Alive: timeout=5
+1 < Pragma: no-cache
+1 < Vary: Origin, Accept-Encoding
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+{}
+
+19:36:42.558 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+19:36:42.563 request:
+1 > GET http://localhost:3000/employees
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:3000
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_271)
+
+19:36:42.576 response time in milliseconds: 10.80
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 24 Dec 2020 14:06:42 GMT
+1 < ETag: W/"cea-6BwcIsBG2CNC/zDclFaTYm4OFrc"
+1 < Expires: -1
+1 < Keep-Alive: timeout=5
+1 < Pragma: no-cache
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+[
+  {
+    "id": 1,
+    "first_name": "Sebastian",
+    "last_name": "Eschweiler",
+    "email": "sebastian@codingthesmartway.com"
+  },
+  {
+    "id": 2,
+    "first_name": "Steve",
+    "last_name": "Palmer",
+    "email": "steve@codingthesmartway.com"
+  },
+  {
+    "id": 3,
+    "first_name": "Ann",
+    "last_name": "Smith",
+    "email": "ann@codingthesmartway.com"
+  },
+  {
+    "last_name": "Gamhewa",
+    "first_name": "Nilmie",
+    "email": "nilmie@mihcm.com",
+    "id": 7
+  },
+  {
+    "first_name": "james",
+    "last_name": "james",
+    "email": "james@codingthesmartway.com",
+    "id": 9
+  },
+  {
+    "first_name": "NilmieR",
+    "last_name": "GamhewaR",
+    "email": "nilmie@mihcm.com",
+    "id": 10
+  },
+  {
+    "first_name": "NilmieR",
+    "last_name": "GamhewaR",
+    "email": "nilmie@mihcm.com",
+    "id": 11
+  },
+  {
+    "first_name": "Nilmie",
+    "last_name": "Smith",
+    "email": "ann@codingthesmartway.com",
+    "id": 12
+  },
+  {
+    "first_name": "Nilmie",
+    "last_name": "Smith",
+    "email": "ann@codingthesmartway.com",
+    "id": 13
+  },
+  {
+    "first_name": "Nilmie",
+    "last_name": "Smith",
+    "email": "ann@codingthesmartway.com",
+    "id": 14
+  },
+  {
+    "last_name": "Singh1",
+    "first_name": "Virender1",
+    "email": "someuser@gmail.com1",
+    "id": 16
+  },
+  {
+    "last_name": "Gamhewa",
+    "first_name": "Nilmie",
+    "email": "nilmie@mihcm.com",
+    "id": 19
+  },
+  {
+    "last_name": "Gamhewa",
+    "first_name": "Nilmie",
+    "email": "nilmie@mihcm.com",
+    "id": 20
+  },
+  {
+    "last_name": "Gamhewa",
+    "first_name": "Nilmie",
+    "email": "nilmie@mihcm.com",
+    "id": 21
+  },
+  {
+    "last_name": "Gamhewa",
+    "first_name": "Nilmie",
+    "email": "nilmie@mihcm.com",
+    "id": 22
+  },
+  {
+    "last_name": "Gamhewa",
+    "first_name": "Nilmie",
+    "email": "nilmie@mihcm.com",
+    "id": 23
+  },
+  {
+    "last_name": "GamhewaR",
+    "first_name": "NilmieR",
+    "email": "nilmie@mihcm.com",
+    "id": 24
+  },
+  {
+    "last_name": "GamhewaR",
+    "first_name": "NilmieR",
+    "email": "nilmie@mihcm.com",
+    "id": 25
+  },
+  {
+    "last_name": "GamhewaR",
+    "first_name": "NilmieR",
+    "email": "nilmie@mihcm.com",
+    "id": 26
+  },
+  {
+    "last_name": "GamhewaRUpdate",
+    "first_name": "NilmieRUpdate",
+    "email": "nilmie@mihcm.com",
+    "id": 27
+  },
+  {
+    "last_name": "GamhewaRUpdate",
+    "first_name": "NilmieRUpdate",
+    "email": "nilmie@mihcm.com",
+    "id": 28
+  },
+  {
+    "last_name": "GamhewaRUpdate",
+    "first_name": "NilmieRUpdate",
+    "email": "nilmie@mihcm.com",
+    "id": 29
+  },
+  {
+    "last_name": "GamhewaRUpdate",
+    "first_name": "NilmieRUpdate",
+    "email": "nilmie@mihcm.com",
+    "id": 30
+  },
+  {
+    "email": "JonesPi@jj.lk",
+    "first_name": "SamPi",
+    "last_name": "JonesPo",
+    "id": 34
+  },
+  {
+    "first_name": "Nil",
+    "last_name": "Ra",
+    "email": "nilmie@mihcm.com",
+    "id": 36
+  },
+  {
+    "first_name": "Nil",
+    "last_name": "Ra",
+    "email": "nilmie@mihcm.com",
+    "id": 39
+  },
+  {
+    "first_name": "Nil",
+    "last_name": "Ra",
+    "email": "nilmie@mihcm.com",
+    "id": 40
+  },
+  {
+    "first_name": "Nil",
+    "last_name": "Ra",
+    "email": "nilmie@mihcm.com",
+    "id": 41
+  },
+  {
+    "first_name": "Nil",
+    "last_name": "Ra",
+    "email": "nilmie@mihcm.com",
+    "id": 42
+  }
+]
+
+19:36:42.614 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+19:36:42.635 request:
+1 > POST http://localhost:3000/employees
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 64
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:3000
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_271)
+{"first_name":"Nil","last_name":"Ra","email":"nilmie@mihcm.com"}
+
+19:36:42.647 response time in milliseconds: 10.60
+1 < 201
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Expose-Headers: Location
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Length: 89
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 24 Dec 2020 14:06:42 GMT
+1 < ETag: W/"59-16rl06pyOrff7P0sruU5Htjpt8g"
+1 < Expires: -1
+1 < Keep-Alive: timeout=5
+1 < Location: http://localhost:3000/employees/43
+1 < Pragma: no-cache
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+{
+  "first_name": "Nil",
+  "last_name": "Ra",
+  "email": "nilmie@mihcm.com",
+  "id": 43
+}
+
+19:36:42.690 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+19:36:42.696 request:
+1 > PUT http://localhost:3000/employees/36
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 68
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:3000
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_271)
+{"first_name":"Nilmie","last_name":"Ras","email":"nilmie@mihcm.com"}
+
+19:36:42.705 response time in milliseconds: 9.03
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Length: 93
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 24 Dec 2020 14:06:42 GMT
+1 < ETag: W/"5d-pi24o0FDTfX6e6Lx7kSBCxhDMuA"
+1 < Expires: -1
+1 < Keep-Alive: timeout=5
+1 < Pragma: no-cache
+1 < Vary: Origin, Accept-Encoding
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+{
+  "first_name": "Nilmie",
+  "last_name": "Ras",
+  "email": "nilmie@mihcm.com",
+  "id": 36
+}
+
+000/employees/38, response: {}
+9:35:40.757 status code was: 404, expected: 200, response time: 9, url: http://localhost:3000/employees/38, response: {}
+":"Ras","id":38,"first_name":"Nilmie","email":"nilmie@mihcm.com"}
